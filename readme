@@ -1,0 +1,147 @@
+# 📊 Sales Data Analysis Project
+
+This project analyzes a sales dataset (Superstore data) to uncover key business insights using Python (Pandas, Matplotlib, Seaborn). It covers descriptive statistics, customer behavior, regional performance, and sales trends, and includes clear visualizations for decision-making.
+
+---
+
+## 🧰 Tools Used
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+---
+
+## 📈 Key Business Insights
+
+### 🧮 General Stats:
+- **Total Sales:** $2,261,536.78  
+- **Average Sale:** $230.77  
+- **Max Sale:** $22,638.48  
+- **Min Sale:** $0.44  
+
+---
+
+### 💡 Category-wise Sales:
+| Category         | Sales ($)     |
+|------------------|---------------|
+| Technology       | 827,455.87    |
+| Furniture        | 728,658.58    |
+| Office Supplies  | 705,422.33    |
+
+---
+
+### 📍 Regional Sales:
+| Region  | Sales ($)     |
+|---------|---------------|
+| West    | 710,219.68    |
+| East    | 669,518.73    |
+| Central | 492,646.91    |
+| South   | 389,151.46    |
+
+---
+
+### 👤 Segment-wise Sales:
+| Segment      | Sales ($)     |
+|--------------|---------------|
+| Consumer     | 1,148,061.00  |
+| Corporate    | 688,494.10    |
+| Home Office  | 424,982.20    |
+
+---
+
+### 🧾 Top 5 Highest Sale Orders:
+| Order ID        | Sales ($)  | Segment      | Region | Category   |
+|------------------|------------|--------------|--------|------------|
+| CA-2015-145317   | 22,638.48  | Home Office  | South  | Technology |
+| CA-2017-118689   | 17,499.95  | Corporate    | Central| Technology |
+| CA-2018-140151   | 13,999.96  | Consumer     | West   | Technology |
+| CA-2018-127180   | 11,199.97  | Home Office  | East   | Technology |
+| CA-2018-166709   | 10,499.97  | Consumer     | East   | Technology |
+
+---
+
+### 🚫 After Removing High Value Orders:
+- **Total Sales:** $2,185,698.45  
+- **Average Sale:** $223.14  
+- **Max Sale:** $9,892.74  
+- **Min Sale:** $0.44  
+
+---
+
+### 🏆 Top 10 Customers by Total Sales:
+| Customer ID | Sales ($)     |
+|-------------|---------------|
+| SM-20320    | 25,043.05     |
+| TC-20980    | 19,052.22     |
+| RB-19360    | 15,117.34     |
+| TA-21385    | 14,595.62     |
+| AB-10105    | 14,473.57     |
+| KL-16645    | 14,175.23     |
+| SC-20095    | 14,142.33     |
+| HL-15040    | 12,873.30     |
+| SE-20110    | 12,209.44     |
+| CC-12370    | 12,129.07     |
+
+---
+
+## 📆 Sales Trends
+
+### 📅 Year-wise Sales:
+| Year | Sales ($)     |
+|------|---------------|
+| 2015 | 479,856.21    |
+| 2016 | 459,436.01    |
+| 2017 | 600,192.55    |
+| 2018 | 722,052.02    |
+
+---
+
+### 📆 Month-wise Sales:
+| Month | Sales ($)     |
+|-------|---------------|
+| Jan   | 94,291.63     |
+| Feb   | 59,371.12     |
+| Mar   | 197,573.59    |
+| Apr   | 136,283.00    |
+| May   | 154,086.72    |
+| Jun   | 145,837.52    |
+| Jul   | 145,535.69    |
+| Aug   | 157,315.93    |
+| Sep   | 300,103.41    |
+| Oct   | 199,496.29    |
+| Nov   | 350,161.71    |
+| Dec   | 321,480.17    |
+
+---
+
+### 📦 Sales by Sub-Category (Top Performers):
+
+- **Phones:** $327,782.45  
+- **Chairs:** $322,822.73  
+- **Storage:** $219,343.39  
+- **Tables:** $202,810.63  
+- **Binders:** $200,028.79  
+- *(Full breakdown in notebook)*
+
+---
+
+## 📊 Visualizations
+
+All major insights are backed by visualizations, including:
+- Sales by Category
+- Sales by Region
+- Segment Distribution
+- Year-over-Year Growth
+- Monthly Seasonality
+- Top Sub-Categories
+- Customer Sales Leaderboard
+
+You can find these in the `images/` folder.
+
+---
+
+## 📁 Folder Structure
+
